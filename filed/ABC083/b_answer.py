@@ -1,5 +1,6 @@
 # 整数の10進法表記の扱い方 for文
 
+# 1
 N, A, B = map(int, input().split())
 ans = 0
 
@@ -18,7 +19,7 @@ for n in range(1, N+1):
 
 print(ans) 
 
-
+# 2
 n,a,b=map(int,input().split());c=0
 while n:c+=n*(a<=sum(map(int,str(n)))<=b);n-=1
 print(c)
