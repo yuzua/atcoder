@@ -1,5 +1,6 @@
 # for文を用いた全探索 多重for文 工夫をし計算数を減らす
 
+# 1
 n,y=map(int,input().split())
 a=[-1]*3
 for i in range(n+1):
@@ -7,6 +8,7 @@ for i in range(n+1):
   if 9*i+4*j+n==y/1e3:a=i,j,n-i-j
 print(*a)
 
+# 2
 N, Y = map(int, input().split())
 res10000 =res5000 = res1000 = -1
 
