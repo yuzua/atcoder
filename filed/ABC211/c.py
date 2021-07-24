@@ -1,3 +1,5 @@
+# 学習中
+
 from itertools import accumulate
 
 m = 1000000007
