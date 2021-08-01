@@ -1,3 +1,4 @@
+# わからん
 N, M = map(int, input().split())
 A = list(input().split())
 B = list(input().split())
@@ -32,5 +33,5 @@ for i in range(len(A_SET)):
             min = 0
             break
         else:
-            min = min(min, abs(A_SET[i] - B_SET[j]))
+            min = min(min, int(abs(A_SET[i] - B_SET[j])))
 print(min)
